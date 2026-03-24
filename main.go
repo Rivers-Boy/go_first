@@ -2,8 +2,11 @@ package main
 
 import "fmt"
 
+// 加入常量重构代码
+const prefix = "Hello, "
+
 func Hello(content string) string {
-	return "Hello " + content
+	return prefix + content
 }
 
 func main() {

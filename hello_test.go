@@ -4,7 +4,7 @@ import "testing"
 
 func TestHello(t *testing.T) {
 	got := Hello("River")
-	want := "Hello River"
+	want := "Hello, River"
 	if got != want {
 		t.Errorf("got %q, want %q", got, want)
 	}
